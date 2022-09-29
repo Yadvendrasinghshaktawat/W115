@@ -1,0 +1,338 @@
+.body{
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Julietta Messie', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* HOME PAGE STYLEING START FORM HERE*/
+
+
+/* Menu Styleing starts here*/
+.header{
+    position: relative;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    width: 100%;
+}
+.mainlogo{
+    width: 50%;
+    background-color: black;
+    padding: 1%;
+    padding-left: 5%;
+}
+.menu{
+    width: 50%;
+    display: flex;
+    position: relative;
+    background-color: black;
+}
+.menu a{
+    padding: 6%;
+    padding-top: 9%;
+    font-size: 1.3em;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+/* Menu Styleing ends here*/
+.maincontent{
+    width: 100%;
+    background-color: black;
+    padding-top: 2%;
+}
+.mainbanner{
+    width: 75%;
+    margin: auto;
+}
+.bannerimg{
+    width: 100%;
+}
+.para{
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.Ourmusicsection{
+    background-color: white;
+    width: 75%;
+    margin: auto;
+}
+.ourmusciheading{
+    color: black;
+    padding: 2%;
+    font-size: 3.4em;
+    font-family: 'Julietta Messie', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin: 0%;
+}
+.Ourmusicarea{
+    background-color: white;
+}
+.albumimg{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.albumoutersec{
+    padding: 1%;
+    margin: 0%;
+}
+.albuminnersec{
+    width: 80%;
+    margin-left: 12%;
+}
+.musciname{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin: 0%;
+    font-size: 1.4em;
+    padding: 2%;
+    color: black;
+
+}
+.musciname a{
+    text-decoration: none;
+}
+.musciwave{
+    width: 70%;
+    padding: 3%;
+    padding-left: 12%;
+}
+.listenmusicbutton{
+  background-color: white; 
+  color: black; 
+  border: 5px solid #000000;
+  padding: 0.8%;
+  width: 20%;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-left: 40%;
+  margin-bottom: 3%;
+}
+.listenmusicbutton:hover{
+    background-color: #000000;
+    color:white;
+    transition: 0.5s;
+}
+/* Footer Styleing ends here*/
+.footer{
+    background-color: black;
+}
+.footerwidth{
+    width: 75%;
+    margin: auto;
+}
+.footerheading{
+    color: white;
+    padding: 2%;
+    font-size: 3.4em;
+    font-family: 'Julietta Messie', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin: 0%;
+    padding-top: 3%;
+}
+.subscribebutton{
+    background-color: black; 
+  color: white; 
+  border: 5px solid #ffffff;
+  padding: 0.8%;
+  width: 20%;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-left: 40%;
+  margin-bottom: 3%;
+}
+.subscribebutton:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.5s;
+}
+.para1{
+    font-size: 1.7em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.qrcode{
+    padding-left: 40%;
+}
+.iconsection{
+    padding: 2%;
+    padding-left: 39%;
+}
+.mediaicon{
+    width: 8%;
+    padding: 2%;
+}
+.para2{
+    font-size: 0.8em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.albumlogo{
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.albumplaylist{
+    color: #ffffff;
+    font-size: 2.4em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 1%;
+}
+.mainbanner1{
+    width: 75%;
+    margin: auto;
+    display: flex;
+}
+.newlettertext{
+    width: 50%;
+}
+.newsletterpara{
+    color: white;
+    padding-left: 1%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+.newslettersec1{
+    width: 90%;
+}
+.newsletterbutton{
+    background-color: black; 
+  color: white; 
+  border: 5px solid #ffffff;
+  padding: 0.8%;
+  width: 40%;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-left: 25%;
+  margin-bottom: 3%;
+}
+.newsletterbutton:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.5s;
+}
+.tourpara{
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+
+}
+.tourparalast{
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    padding-bottom: 3%;
+}
+.merchandisesection{
+    background-color: white;
+}
+.Merchandiseheading{
+    color: black;
+    padding: 2%;
+    font-size: 3.4em;
+    font-family: 'Julietta Messie', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin: 0%;
+    padding-top: 3%;
+}
+.viewmoremerchandise{
+    padding-bottom: 4%;
+}
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #a6a6a6;
+    background-color: #ffffff;
+    margin-left: 12%;
+  }
+
+  input[type=text1] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #a6a6a6;
+    background-color: #ffffff;
+    margin-left: 17%;
+  }
+
+  input[type=tel] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #a6a6a6;
+    background-color: #ffffff;
+    margin-left: 11%;
+    margin-bottom: 4%;
+  }
+  .artistdetails{
+      background-color: #000000;
+      display: flex;
+  }
+  .artistimg{
+      width: 100%;
+  }
+  .artistsec1{
+      padding: 5%;
+  }
+  .artistname{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin: 0%;
+    font-size: 1.4em;
+    padding: 2%;
+    color: white;
+}
+.artistpara{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0%;
+    font-size: 0.8em;
+    padding: 2%;
+
+}
+.artistimg4{
+    width: 80%;
+}
+.artistsec2{
+    padding: 5%;
+    padding-left: 12%;
+}
+audio{
+    width: 50%;
+    padding-left: 25%;
+    padding-bottom: 4%
+}
